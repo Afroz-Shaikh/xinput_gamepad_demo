@@ -33,26 +33,26 @@ class HomePage extends StatelessWidget {
                 index: 0,
               )),
           const Spacer(),
-          Expanded(
-              flex: flexFactorContainer,
-              child: ControllerInformationContainer(
-                color: const Color.fromRGBO(173, 198, 255, 1),
-                index: 1,
-              )),
-          const Spacer(),
-          Expanded(
-              flex: flexFactorContainer,
-              child: ControllerInformationContainer(
-                color: const Color.fromRGBO(97, 224, 90, 1),
-                index: 2,
-              )),
-          const Spacer(),
-          Expanded(
-              flex: flexFactorContainer,
-              child: ControllerInformationContainer(
-                color: const Color.fromRGBO(255, 185, 79, 1),
-                index: 3,
-              ))
+          // Expanded(
+          //     flex: flexFactorContainer,
+          //     child: ControllerInformationContainer(
+          //       color: const Color.fromRGBO(173, 198, 255, 1),
+          //       index: 1,
+          //     )),
+          // const Spacer(),
+          // Expanded(
+          //     flex: flexFactorContainer,
+          //     child: ControllerInformationContainer(
+          //       color: const Color.fromRGBO(97, 224, 90, 1),
+          //       index: 2,
+          //     )),
+          // const Spacer(),
+          // Expanded(
+          //     flex: flexFactorContainer,
+          //     child: ControllerInformationContainer(
+          //       color: const Color.fromRGBO(255, 185, 79, 1),
+          //       index: 3,
+          //     ))
         ]),
       ),
     );
